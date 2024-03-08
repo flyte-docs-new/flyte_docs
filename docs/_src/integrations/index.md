@@ -1,9 +1,3 @@
-# Integrations
+# About Flyte integrations
 
-```{toctree}
-:maxdepth: 2
-:hidden:
-
-web_api_integrations/index
-
-```
+TK

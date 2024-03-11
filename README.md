@@ -1,14 +1,29 @@
-# Flyte Docs
+# New Flyte docs
 
 To build and view these docs locally:
 
-1. Create and activate a new virtual environment: `python -m venv .venv; source .venv/bin/activate`
-2. Install `pip-tools`: `python -m pip install pip-tools`
-3. Compile requirements: `pip-compile requirements.in`
-4. Install requirements: `pip install -r requirements.txt`
+1. Create and activate a new virtual environment:
+```
+python -m venv .venv; source .venv/bin/activate
+```
+2. Install `pip-tools`:
+```
+python -m pip install pip-tools
+```
+3. Compile requirements:
+```
+pip-compile requirements.in
+```
+4. Install requirements:
+```
+pip install -r requirements.txt
+```
 5. Build docs:
 ```
 cd docs
 sphinx-build -M html _src _build
 ```
-6. View docs: ` open _build/html/index.html`
+6. View docs:
+```
+open _build/html/index.html
+```

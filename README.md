@@ -24,5 +24,5 @@ sphinx-build -M html docs/_src docs/_build
 ```
 6. View docs:
 ```
-open _build/html/index.html
+open docs/_build/html/index.html
 ```

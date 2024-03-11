@@ -20,8 +20,7 @@ pip install -r requirements.txt
 ```
 5. Build docs:
 ```
-cd docs
-sphinx-build -M html _src _build
+sphinx-build -M html docs/_src docs/_build
 ```
 6. View docs:
 ```

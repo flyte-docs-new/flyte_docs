@@ -93,17 +93,6 @@ deployment/multi_cluster
 ```{toctree}
 :maxdepth: 1
 :hidden:
-:caption: API reference
-:name: api_reference
-
-api_reference/flytekit
-api_reference/flytectl
-api_reference/flyteidl
-```
-
-```{toctree}
-:maxdepth: 1
-:hidden:
 :caption: Glossary
 :name: glossary
 
